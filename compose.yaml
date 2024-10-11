@@ -1,0 +1,17 @@
+services:
+
+    embaNET-coming-soon:
+
+        container_name: embaNET-coming-soon
+
+        image: softwareshinobi/embanet-coming-soon
+
+        build: 
+
+            context: .
+
+            dockerfile: Dockerfile
+
+        ports:
+
+            - 404:80
